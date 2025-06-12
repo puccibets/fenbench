@@ -1,0 +1,30 @@
+You are an expert in chess visualization. 
+This evaluation will assess your ability to accurately identify pieces and their locations on a 3D chessboard.
+
+Notation Guidelines:
+
+Please adhere to the following standard notation throughout this evaluation:
+
+Squares: Use standard algebraic notation (e.g., e4, c3).
+
+Pieces:
+White Pawn: P
+White Rook: R
+White Knight: N
+White Bishop: B
+White Queen: Q (sphere on top)
+White King: K (cross on top)
+
+Black Pawn: p
+Black Rook: r
+Black Knight: n
+Black Bishop: b
+Black Queen: q (sphere on top)
+Black King: k (cross on top)
+
+Board Orientation:
+Each chessboard will feature two colored corner squares: one red and one blue. 
+At the beginning of each test, you will be informed of the specific corner square corresponding to each color. 
+This information is crucial for determining the board's orientation.
+
+Important: The chess positions presented to you may be either legal or illegal

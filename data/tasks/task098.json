@@ -1,0 +1,8 @@
+{
+    "test_id": "98",
+    "category": "2",
+    "image_path": "images/task98",
+    "orientation": {"red_corner": "h8", "blue_corner": "a1"},
+    "question": "On what square is P",
+    "expected_answer": ["a2","b3","f5","g5"]
+}

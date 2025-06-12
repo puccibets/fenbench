@@ -1,0 +1,22 @@
+Task: Identify Square(s) by Piece 
+You will be given an image of a chessboard along with a piece identifier.
+Your task is to identify all squares which this type of piece is currently occupying.
+
+Important: You can be certain that there is always at least one square occupied by the provided piece type.
+
+Output Format: 
+You must respond with a JSON object containing a "squares" field with an array of square locations in algebraic notation.
+
+Example Format: 
+
+Question 1: "On what square is n"
+Output: 
+{
+  "squares": ["b1", "g1"]
+}
+
+Question 2: "On what square is K"
+Output: 
+{
+  "squares": ["e1"]
+}

@@ -1,0 +1,30 @@
+Task: identify number of piece type on chessboard
+
+You will be given an image of a chessboard.
+Your task is to identify the types of pieces on the chessboard along with their corresponding quantites.
+
+Important: You can be certain that the chessboard is not empty. The order of the pieces in the response does not matter.
+
+Output Format:
+You must respond with a JSON object containing a "piece_counts" field with a mapping of piece type to count.
+
+Example Format:
+
+Question: "Return types of pieces along with their quantities on the board"
+Output:
+{
+  "piece_counts": {
+    "P": 8,
+    "N": 2,
+    "B": 2,
+    "R": 2,
+    "Q": 1,
+    "K": 1,
+    "p": 8,
+    "n": 2,
+    "b": 2,
+    "r": 2,
+    "q": 1,
+    "k": 1
+  }
+} 

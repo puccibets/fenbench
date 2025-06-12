@@ -1,0 +1,14 @@
+{
+  "title": "Piece Identification by Square",
+  "description": "Identify which piece is on a specific square",
+  "type": "object",
+  "properties": {
+    "piece": {
+      "type": "string",
+      "pattern": "^[PNBRQKpnbrqk]$",
+      "description": "Single character representing the piece: P/p=pawn, N/n=knight, B/b=bishop, R/r=rook, Q/q=queen, K/k=king. Uppercase=white, lowercase=black"
+    }
+  },
+  "required": ["piece"],
+  "additionalProperties": false
+}

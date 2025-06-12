@@ -1,0 +1,23 @@
+{
+  "title": "Piece Count and Types",
+  "description": "Return all piece types and their quantities on the board",
+  "type": "object",
+  "properties": {
+    "piece_counts": {
+      "type": "object",
+      "description": "Mapping of piece type → count",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[PNBRQKpnbrqk]$",
+        "description": "Single chess-piece letter (uppercase = White, lowercase = Black)"
+      },
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Non-negative count of pieces of that type"
+      }
+    }
+  },
+  "required": ["piece_counts"],
+  "additionalProperties": false
+}

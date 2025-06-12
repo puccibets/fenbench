@@ -1,0 +1,8 @@
+{
+    "test_id": "68",
+    "category": "2",
+    "image_path": "images/task68",
+    "orientation": {"red_corner": "h8", "blue_corner": "a8"},
+    "question": "On what square is q",
+    "expected_answer": ["a2"]
+}

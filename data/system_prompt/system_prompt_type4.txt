@@ -1,0 +1,18 @@
+Task: identify FEN string
+
+You will be given an image of a chessboard.
+Your task is to identify the first field of the FEN string associated with the position on the board.
+
+Important: you can be certain that the chessboard is not empty.
+
+Output Format:
+You must respond with a JSON object containing a "fen" field with the FEN string representation of the board position.
+
+Example Format:
+
+Question: "Return the FEN string of the position"
+Output:
+{
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+} 
+

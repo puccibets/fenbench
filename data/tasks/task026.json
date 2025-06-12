@@ -1,0 +1,8 @@
+{
+    "test_id": "26",
+    "category": "1",
+    "image_path": "images/task26",
+    "orientation": {"red_corner": "h8", "blue_corner": "h1"},
+    "question": "What piece is on square e7",
+    "expected_answer": "b"
+}

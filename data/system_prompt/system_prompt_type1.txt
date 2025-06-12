@@ -1,0 +1,18 @@
+Task: Identify Piece by Square
+You will be given an image of a chessboard along with a square identifier. 
+Your task is to identify the piece currently occupying that square.
+
+Important: You can be certain that there will always be a piece on the square provided.
+
+Output Format:
+You must respond with a JSON object containing a single "piece" field with the piece notation.
+
+Example Format:
+
+Question: "What piece is on square e4"
+Output: 
+{
+  "piece": "Q"
+} 
+
+

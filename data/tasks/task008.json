@@ -1,0 +1,8 @@
+{
+    "test_id": "8",
+    "category": "1",
+    "image_path": "images/task8",
+    "orientation": {"red_corner": "h8", "blue_corner": "a8"},
+    "question": "What piece is on square f5",
+    "expected_answer": "b"
+}
