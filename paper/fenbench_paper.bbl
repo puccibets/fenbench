@@ -1,0 +1,80 @@
+\begin{thebibliography}{10}
+
+\bibitem{shannon1950programming}
+Claude~E Shannon.
+\newblock Programming a computer for playing chess.
+\newblock {\em The London, Edinburgh, and Dublin Philosophical Magazine and
+  Journal of Science}, 41(314):256--275, 1950.
+
+\bibitem{campbell2002deep}
+Murray Campbell, A~Joseph Hoane~Jr, and Feng-hsiung Hsu.
+\newblock Deep blue.
+\newblock {\em Artificial intelligence}, 134(1-2):57--83, 2002.
+
+\bibitem{silver2017mastering}
+David Silver, Thomas Hubert, Julian Schrittwieser, Ioannis Antonoglou, Matthew
+  Lai, Arthur Guez, Marc Lanctot, Laurent Sifre, Dharshan Kumaran, Thore
+  Graepel, et~al.
+\newblock Mastering chess and shogi by self-play with a general reinforcement
+  learning algorithm.
+\newblock {\em arXiv preprint arXiv:1712.01815}, 2017.
+
+\bibitem{radford2021learning}
+Alec Radford, Jong~Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh,
+  Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark,
+  et~al.
+\newblock Learning transferable visual models from natural language
+  supervision.
+\newblock In {\em International conference on machine learning}, pages
+  8748--8763. PMLR, 2021.
+
+\bibitem{alayrac2022flamingo}
+Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Iain Barr,
+  Yana Hasson, Karel Lenc, Arthur Mensch, Katherine Millican, Malcolm Reynolds,
+  et~al.
+\newblock Flamingo: a visual language model for few-shot learning.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:23716--23736, 2022.
+
+\bibitem{openai2023gpt4v}
+OpenAI.
+\newblock Gpt-4v(ision) system card.
+\newblock \url{https://cdn.openai.com/papers/GPTV_System_Card.pdf}, 2023.
+
+\bibitem{team2023gemini}
+Gemini Team, Rohan Anil, Sebastian Borgeaud, Yonghui Wu, Jean-Baptiste Alayrac,
+  Jiahui Yu, Radu Soricut, Johan Schalkwyk, Andrew~M Dai, Anja Hauth, et~al.
+\newblock Gemini: a family of highly capable multimodal models.
+\newblock {\em arXiv preprint arXiv:2312.11805}, 2023.
+
+\bibitem{antol2015vqa}
+Stanislaw Antol, Aishwarya Agrawal, Jiasen Lu, Margaret Mitchell, Dhruv Batra,
+  C~Lawrence Zitnick, and Devi Parikh.
+\newblock Vqa: Visual question answering.
+\newblock In {\em Proceedings of the IEEE international conference on computer
+  vision}, pages 2425--2433, 2015.
+
+\bibitem{johnson2017clevr}
+Justin Johnson, Bharath Hariharan, Laurens van~der Maaten, Li~Fei-Fei,
+  C~Lawrence~Zitnick, and Ross Girshick.
+\newblock Clevr: A diagnostic dataset for compositional language and elementary
+  visual reasoning.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 2901--2910, 2017.
+
+\bibitem{kembhavi2016diagram}
+Aniruddha Kembhavi, Mike Salvato, Eric Kolve, Minjoon Seo, Hannaneh Hajishirzi,
+  and Ali Farhadi.
+\newblock A diagram is worth a dozen images.
+\newblock In {\em European Conference on Computer Vision}, pages 235--251.
+  Springer, 2016.
+
+\bibitem{lu2022learn}
+Pan Lu, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu,
+  Oyvind Tafjord, Peter Clark, and Ashwin Kalyan.
+\newblock Learn to explain: Multimodal reasoning via thought chains for science
+  question answering.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:2507--2521, 2022.
+
+\end{thebibliography}

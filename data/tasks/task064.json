@@ -1,0 +1,8 @@
+{
+    "test_id": "64",
+    "category": "2",
+    "image_path": "images/task64",
+    "orientation": {"red_corner": "h8", "blue_corner": "a1"},
+    "question": "On what square is B",
+    "expected_answer": ["f4"]
+}

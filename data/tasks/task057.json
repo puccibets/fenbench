@@ -1,0 +1,8 @@
+{
+    "test_id": "57",
+    "category": "2",
+    "image_path": "images/task57",
+    "orientation": {"red_corner": "a8", "blue_corner": "a1"},
+    "question": "On what square is n",
+    "expected_answer": ["c6","e7"]
+}

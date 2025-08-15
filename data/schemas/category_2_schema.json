@@ -1,0 +1,18 @@
+{
+  "title": "Square Location by Piece",
+  "description": "Find all squares where a specific piece type is located",
+  "type": "object", 
+  "properties": {
+    "squares": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-h][1-8]$",
+        "description": "Square in algebraic notation (e.g., e4, c3)"
+      },
+      "description": "Array of all squares containing the specified piece type"
+    }
+  },
+  "required": ["squares"],
+  "additionalProperties": false
+}

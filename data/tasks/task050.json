@@ -1,0 +1,8 @@
+{
+    "test_id": "50",
+    "category": "1",
+    "image_path": "images/task50",
+    "orientation": {"red_corner": "h1", "blue_corner": "a1"},
+    "question": "What piece is on square e6",
+    "expected_answer": "p"
+}

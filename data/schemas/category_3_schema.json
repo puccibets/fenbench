@@ -1,0 +1,29 @@
+{
+  "title": "Piece Count and Types",
+  "description": "Return all piece types and their quantities on the board",
+  "type": "object",
+  "properties": {
+    "piece_counts": {
+      "type": "object",
+      "description": "Mapping of piece type → count",
+      "properties": {
+        "P": {"type": "integer", "minimum": 0, "description": "White pawns"},
+        "N": {"type": "integer", "minimum": 0, "description": "White knights"},
+        "B": {"type": "integer", "minimum": 0, "description": "White bishops"},
+        "R": {"type": "integer", "minimum": 0, "description": "White rooks"},
+        "Q": {"type": "integer", "minimum": 0, "description": "White queens"},
+        "K": {"type": "integer", "minimum": 0, "description": "White king"},
+        "p": {"type": "integer", "minimum": 0, "description": "Black pawns"},
+        "n": {"type": "integer", "minimum": 0, "description": "Black knights"},
+        "b": {"type": "integer", "minimum": 0, "description": "Black bishops"},
+        "r": {"type": "integer", "minimum": 0, "description": "Black rooks"},
+        "q": {"type": "integer", "minimum": 0, "description": "Black queens"},
+        "k": {"type": "integer", "minimum": 0, "description": "Black king"}
+      },
+      "required": ["P", "N", "B", "R", "Q", "K", "p", "n", "b", "r", "q", "k"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["piece_counts"],
+  "additionalProperties": false
+}

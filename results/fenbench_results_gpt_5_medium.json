@@ -1,0 +1,3710 @@
+{
+  "benchmark_info": {
+    "start_time": "2025-08-13T15:06:43.355479",
+    "total_tasks": 200,
+    "completed_tasks": 200,
+    "categories": {
+      "1": {
+        "name": "Piece Identification",
+        "total": 50,
+        "correct": 13,
+        "accuracy": 0.26
+      },
+      "2": {
+        "name": "Square Location",
+        "total": 50,
+        "correct": 0,
+        "accuracy": 0.0
+      },
+      "3": {
+        "name": "Piece Counting",
+        "total": 50,
+        "correct": 1,
+        "accuracy": 0.02
+      },
+      "4": {
+        "name": "FEN Generation",
+        "total": 50,
+        "correct": 1,
+        "accuracy": 0.02
+      }
+    },
+    "end_time": "2025-08-13T21:44:08.227650",
+    "overall_accuracy": 0.075
+  },
+  "task_results": [
+    {
+      "task_id": "1",
+      "category": "1",
+      "question": "What piece is on square c8",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "b"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "2",
+      "category": "1",
+      "question": "What piece is on square g6",
+      "expected_answer": "n",
+      "llm_response": {
+        "piece": "r"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "3",
+      "category": "1",
+      "question": "What piece is on square e4",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "4",
+      "category": "1",
+      "question": "What piece is on square d6",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "k"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "5",
+      "category": "1",
+      "question": "What piece is on square e7",
+      "expected_answer": "p",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "6",
+      "category": "1",
+      "question": "What piece is on square e3",
+      "expected_answer": "B",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "7",
+      "category": "1",
+      "question": "What piece is on square g8",
+      "expected_answer": "q",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "8",
+      "category": "1",
+      "question": "What piece is on square f5",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "K"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "9",
+      "category": "1",
+      "question": "What piece is on square c1",
+      "expected_answer": "R",
+      "llm_response": {
+        "piece": "R"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "10",
+      "category": "1",
+      "question": "What piece is on square e1",
+      "expected_answer": "k",
+      "llm_response": {
+        "piece": "k"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "11",
+      "category": "1",
+      "question": "What piece is on square a2",
+      "expected_answer": "B",
+      "llm_response": {
+        "piece": "r"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "12",
+      "category": "1",
+      "question": "What piece is on square a5",
+      "expected_answer": "q",
+      "llm_response": {
+        "piece": "B"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "13",
+      "category": "1",
+      "question": "What piece is on square e3",
+      "expected_answer": "n",
+      "llm_response": {
+        "piece": "B"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "14",
+      "category": "1",
+      "question": "What piece is on square f5",
+      "expected_answer": "p",
+      "llm_response": {
+        "piece": "b"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "15",
+      "category": "1",
+      "question": "What piece is on square c3",
+      "expected_answer": "R",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "16",
+      "category": "1",
+      "question": "What piece is on square g3",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "17",
+      "category": "1",
+      "question": "What piece is on square f8",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "K"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "18",
+      "category": "1",
+      "question": "What piece is on square d7",
+      "expected_answer": "r",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "19",
+      "category": "1",
+      "question": "What piece is on square g4",
+      "expected_answer": "K",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "20",
+      "category": "1",
+      "question": "What piece is on square f5",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "21",
+      "category": "1",
+      "question": "What piece is on square a3",
+      "expected_answer": "B",
+      "llm_response": {
+        "piece": "r"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "22",
+      "category": "1",
+      "question": "What piece is on square h6",
+      "expected_answer": "p",
+      "llm_response": {
+        "piece": "R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "23",
+      "category": "1",
+      "question": "What piece is on square c5",
+      "expected_answer": "r",
+      "llm_response": {
+        "piece": "r"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "24",
+      "category": "1",
+      "question": "What piece is on square d5",
+      "expected_answer": "n",
+      "llm_response": {
+        "piece": "n"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "25",
+      "category": "1",
+      "question": "What piece is on square e6",
+      "expected_answer": "N",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "26",
+      "category": "1",
+      "question": "What piece is on square e7",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "27",
+      "category": "1",
+      "question": "What piece is on square f2",
+      "expected_answer": "k",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "28",
+      "category": "1",
+      "question": "What piece is on square d8",
+      "expected_answer": "r",
+      "llm_response": {
+        "piece": "r"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "29",
+      "category": "1",
+      "question": "What piece is on square e6",
+      "expected_answer": "B",
+      "llm_response": {
+        "piece": "n"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "30",
+      "category": "1",
+      "question": "What piece is on square f8",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "31",
+      "category": "1",
+      "question": "What piece is on square f5",
+      "expected_answer": "R",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "32",
+      "category": "1",
+      "question": "What piece is on square e5",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "N"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "33",
+      "category": "1",
+      "question": "What piece is on square c7",
+      "expected_answer": "K",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "34",
+      "category": "1",
+      "question": "What piece is on square e2",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "35",
+      "category": "1",
+      "question": "What piece is on square h8",
+      "expected_answer": "q",
+      "llm_response": {
+        "piece": "K"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "36",
+      "category": "1",
+      "question": "What piece is on square e3",
+      "expected_answer": "k",
+      "llm_response": {
+        "piece": "k"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "37",
+      "category": "1",
+      "question": "What piece is on square f3",
+      "expected_answer": "N",
+      "llm_response": {
+        "piece": "N"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "38",
+      "category": "1",
+      "question": "What piece is on square b2",
+      "expected_answer": "R",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "39",
+      "category": "1",
+      "question": "What piece is on square d8",
+      "expected_answer": "k",
+      "llm_response": {
+        "piece": "q"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "40",
+      "category": "1",
+      "question": "What piece is on square g6",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "n"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "41",
+      "category": "1",
+      "question": "What piece is on square g2",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "K"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "42",
+      "category": "1",
+      "question": "What piece is on square c6",
+      "expected_answer": "p",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "43",
+      "category": "1",
+      "question": "What piece is on square e6",
+      "expected_answer": "p",
+      "llm_response": {
+        "piece": "R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "44",
+      "category": "1",
+      "question": "What piece is on square c5",
+      "expected_answer": "n",
+      "llm_response": {
+        "piece": "N"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "45",
+      "category": "1",
+      "question": "What piece is on square d6",
+      "expected_answer": "N",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "46",
+      "category": "1",
+      "question": "What piece is on square g3",
+      "expected_answer": "B",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "47",
+      "category": "1",
+      "question": "What piece is on square h7",
+      "expected_answer": "b",
+      "llm_response": {
+        "piece": "p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "48",
+      "category": "1",
+      "question": "What piece is on square g6",
+      "expected_answer": "Q",
+      "llm_response": {
+        "piece": "Q"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "49",
+      "category": "1",
+      "question": "What piece is on square c5",
+      "expected_answer": "P",
+      "llm_response": {
+        "piece": "P"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "50",
+      "category": "1",
+      "question": "What piece is on square e6",
+      "expected_answer": "p",
+      "llm_response": {
+        "piece": "n"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "51",
+      "category": "2",
+      "question": "On what square is n",
+      "expected_answer": [
+        "f6"
+      ],
+      "llm_response": {
+        "squares": [
+          "e5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "52",
+      "category": "2",
+      "question": "On what square is N",
+      "expected_answer": [
+        "e4",
+        "f3"
+      ],
+      "llm_response": {
+        "squares": [
+          "e6",
+          "g5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "53",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "e5",
+        "g6"
+      ],
+      "llm_response": {
+        "squares": [
+          "c6",
+          "g4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "54",
+      "category": "2",
+      "question": "On what square is q",
+      "expected_answer": [
+        "g3"
+      ],
+      "llm_response": {
+        "squares": [
+          "e6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "55",
+      "category": "2",
+      "question": "On what square is b",
+      "expected_answer": [
+        "d3",
+        "d6"
+      ],
+      "llm_response": {
+        "squares": [
+          "c5",
+          "f6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "56",
+      "category": "2",
+      "question": "On what square is r",
+      "expected_answer": [
+        "c8",
+        "f2"
+      ],
+      "llm_response": {
+        "squares": [
+          "b6",
+          "c6",
+          "f3"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "57",
+      "category": "2",
+      "question": "On what square is n",
+      "expected_answer": [
+        "c6",
+        "e7"
+      ],
+      "llm_response": {
+        "squares": [
+          "f5",
+          "g6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "58",
+      "category": "2",
+      "question": "On what square is Q",
+      "expected_answer": [
+        "g8"
+      ],
+      "llm_response": {
+        "squares": [
+          "f6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "59",
+      "category": "2",
+      "question": "On what square is n",
+      "expected_answer": [
+        "f6"
+      ],
+      "llm_response": {
+        "squares": [
+          "f6",
+          "g5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "60",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "g3"
+      ],
+      "llm_response": {
+        "squares": [
+          "c7",
+          "g2"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "61",
+      "category": "2",
+      "question": "On what square is p",
+      "expected_answer": [
+        "a7"
+      ],
+      "llm_response": {
+        "squares": [
+          "a7",
+          "e5",
+          "h7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "62",
+      "category": "2",
+      "question": "On what square is R",
+      "expected_answer": [
+        "f7"
+      ],
+      "llm_response": {
+        "squares": [
+          "f8"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "63",
+      "category": "2",
+      "question": "On what square is b",
+      "expected_answer": [
+        "c8",
+        "d4"
+      ],
+      "llm_response": {
+        "squares": [
+          "d5",
+          "e7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "64",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "f4"
+      ],
+      "llm_response": {
+        "squares": [
+          "d4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "65",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "g3"
+      ],
+      "llm_response": {
+        "squares": [
+          "a5",
+          "b3"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "66",
+      "category": "2",
+      "question": "On what square is R",
+      "expected_answer": [
+        "a6"
+      ],
+      "llm_response": {
+        "squares": [
+          "c4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "67",
+      "category": "2",
+      "question": "On what square is K",
+      "expected_answer": [
+        "g4"
+      ],
+      "llm_response": {
+        "squares": [
+          "c4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "68",
+      "category": "2",
+      "question": "On what square is q",
+      "expected_answer": [
+        "a2"
+      ],
+      "llm_response": {
+        "squares": [
+          "e5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "69",
+      "category": "2",
+      "question": "On what square is n",
+      "expected_answer": [
+        "d5,e5"
+      ],
+      "llm_response": {
+        "squares": [
+          "d5",
+          "e5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "70",
+      "category": "2",
+      "question": "On what square is k",
+      "expected_answer": [
+        "e7"
+      ],
+      "llm_response": {
+        "squares": [
+          "e4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "71",
+      "category": "2",
+      "question": "On what square is R",
+      "expected_answer": [
+        "b7"
+      ],
+      "llm_response": {
+        "squares": [
+          "d6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "72",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "c1",
+        "e6"
+      ],
+      "llm_response": {
+        "squares": [
+          "b2",
+          "g5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "73",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "a2",
+        "g2",
+        "h3",
+        "e4",
+        "g6"
+      ],
+      "llm_response": {
+        "squares": [
+          "b2",
+          "g2",
+          "h2",
+          "g5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "74",
+      "category": "2",
+      "question": "On what square is p",
+      "expected_answer": [
+        "a7",
+        "b7",
+        "c5",
+        "c7",
+        "e6",
+        "g5",
+        "h3"
+      ],
+      "llm_response": {
+        "squares": [
+          "b3",
+          "c3",
+          "d2",
+          "e4",
+          "g6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "75",
+      "category": "2",
+      "question": "On what square is p",
+      "expected_answer": [
+        "a7",
+        "b6",
+        "c7",
+        "d5",
+        "e6",
+        "g7",
+        "h7"
+      ],
+      "llm_response": {
+        "squares": [
+          "d5",
+          "e5",
+          "f5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "76",
+      "category": "2",
+      "question": "On what square is K",
+      "expected_answer": [
+        "e8"
+      ],
+      "llm_response": {
+        "squares": [
+          "b7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "77",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "a2",
+        "b2",
+        "c3",
+        "e4",
+        "f2",
+        "f3",
+        "h5"
+      ],
+      "llm_response": {
+        "squares": [
+          "b4",
+          "c3",
+          "d3",
+          "e4",
+          "f3",
+          "g2",
+          "c5",
+          "d5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "78",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "b5",
+        "d4"
+      ],
+      "llm_response": {
+        "squares": [
+          "d5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "79",
+      "category": "2",
+      "question": "On what square is q",
+      "expected_answer": [
+        "e2",
+        "h1"
+      ],
+      "llm_response": {
+        "squares": [
+          "h1",
+          "d3"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "80",
+      "category": "2",
+      "question": "On what square is r",
+      "expected_answer": [
+        "e6",
+        "e8"
+      ],
+      "llm_response": {
+        "squares": [
+          "b7",
+          "d6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "81",
+      "category": "2",
+      "question": "On what square is b",
+      "expected_answer": [
+        "e6",
+        "f8"
+      ],
+      "llm_response": {
+        "squares": [
+          "g7",
+          "h6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "82",
+      "category": "2",
+      "question": "On what square is p",
+      "expected_answer": [
+        "e5",
+        "f6",
+        "g7",
+        "h6"
+      ],
+      "llm_response": {
+        "squares": [
+          "e6",
+          "f5",
+          "g5",
+          "h4",
+          "g3"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "83",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "a3",
+        "f2",
+        "g3",
+        "h4"
+      ],
+      "llm_response": {
+        "squares": [
+          "b3",
+          "e2",
+          "g4",
+          "h6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "84",
+      "category": "2",
+      "question": "On what square is R",
+      "expected_answer": [
+        "e1",
+        "g7"
+      ],
+      "llm_response": {
+        "squares": [
+          "b3",
+          "g7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "85",
+      "category": "2",
+      "question": "On what square is R",
+      "expected_answer": [
+        "a8",
+        "g4"
+      ],
+      "llm_response": {
+        "squares": [
+          "a7",
+          "g7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "86",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "d3",
+        "f4"
+      ],
+      "llm_response": {
+        "squares": [
+          "e5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "87",
+      "category": "2",
+      "question": "On what square is p",
+      "expected_answer": [
+        "g4",
+        "h4"
+      ],
+      "llm_response": {
+        "squares": [
+          "f5",
+          "h2"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "88",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "b3",
+        "f2",
+        "f4",
+        "f5",
+        "g3",
+        "g4",
+        "g5",
+        "g6"
+      ],
+      "llm_response": {
+        "squares": [
+          "c5",
+          "d5",
+          "e5",
+          "c6",
+          "e6",
+          "g2",
+          "f2"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "89",
+      "category": "2",
+      "question": "On what square is b",
+      "expected_answer": [
+        "e3",
+        "g2",
+        "g3"
+      ],
+      "llm_response": {
+        "squares": [
+          "c5",
+          "e3"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "90",
+      "category": "2",
+      "question": "On what square is r",
+      "expected_answer": [
+        "d8",
+        "f4"
+      ],
+      "llm_response": {
+        "squares": [
+          "e6",
+          "f5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "91",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "a4",
+        "c3",
+        "c4",
+        "d5",
+        "e4"
+      ],
+      "llm_response": {
+        "squares": [
+          "d4",
+          "e5",
+          "f4",
+          "f6",
+          "h4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "92",
+      "category": "2",
+      "question": "On what square is b",
+      "expected_answer": [
+        "b4",
+        "g4"
+      ],
+      "llm_response": {
+        "squares": [
+          "e3",
+          "e5"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "93",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "a5",
+        "g3",
+        "h2"
+      ],
+      "llm_response": {
+        "squares": [
+          "h1",
+          "g2",
+          "a6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "94",
+      "category": "2",
+      "question": "On what square is N",
+      "expected_answer": [
+        "c3",
+        "f3"
+      ],
+      "llm_response": {
+        "squares": [
+          "f6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "95",
+      "category": "2",
+      "question": "On what square is B",
+      "expected_answer": [
+        "b1",
+        "e1"
+      ],
+      "llm_response": {
+        "squares": [
+          "e5",
+          "g6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "96",
+      "category": "2",
+      "question": "On what square is n",
+      "expected_answer": [
+        "c8",
+        "e8"
+      ],
+      "llm_response": {
+        "squares": [
+          "c8",
+          "e7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "97",
+      "category": "2",
+      "question": "On what square is p",
+      "expected_answer": [
+        "a7",
+        "c3",
+        "d5",
+        "e6",
+        "g4",
+        "h6"
+      ],
+      "llm_response": {
+        "squares": [
+          "e2",
+          "f2",
+          "d4",
+          "g5",
+          "c6",
+          "f7"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "98",
+      "category": "2",
+      "question": "On what square is P",
+      "expected_answer": [
+        "a2",
+        "b3",
+        "f5",
+        "g5"
+      ],
+      "llm_response": {
+        "squares": [
+          "a7",
+          "b6",
+          "e5",
+          "f3",
+          "g4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "99",
+      "category": "2",
+      "question": "On what square is N",
+      "expected_answer": [
+        "c3",
+        "f3",
+        "f6"
+      ],
+      "llm_response": {
+        "squares": [
+          "d5",
+          "e6"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "100",
+      "category": "2",
+      "question": "On what square is n",
+      "expected_answer": [
+        "c6",
+        "e4",
+        "f6"
+      ],
+      "llm_response": {
+        "squares": [
+          "e5",
+          "c4"
+        ]
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "101",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 4,
+        "P": 5,
+        "r": 2,
+        "R": 2,
+        "b": 1,
+        "B": 1,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 0,
+          "B": 1,
+          "R": 2,
+          "Q": 0,
+          "K": 1,
+          "p": 5,
+          "n": 0,
+          "b": 2,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "102",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 6,
+        "P": 4,
+        "r": 2,
+        "R": 1,
+        "B": 1,
+        "Q": 1,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 0,
+          "B": 2,
+          "R": 1,
+          "Q": 1,
+          "K": 2,
+          "p": 6,
+          "n": 0,
+          "b": 0,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "103",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 1,
+        "P": 1,
+        "r": 1,
+        "R": 1,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 0,
+          "N": 0,
+          "B": 0,
+          "R": 1,
+          "Q": 1,
+          "K": 1,
+          "p": 1,
+          "n": 0,
+          "b": 0,
+          "r": 1,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "104",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 5,
+        "P": 5,
+        "r": 3,
+        "R": 1,
+        "N": 1,
+        "b": 2,
+        "Q": 1,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 1,
+          "B": 2,
+          "R": 1,
+          "Q": 0,
+          "K": 1,
+          "p": 8,
+          "n": 1,
+          "b": 2,
+          "r": 3,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "105",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 2,
+        "Q": 1,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 3,
+          "N": 0,
+          "B": 0,
+          "R": 1,
+          "Q": 1,
+          "K": 0,
+          "p": 0,
+          "n": 0,
+          "b": 0,
+          "r": 0,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "106",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 3,
+        "P": 1,
+        "N": 1,
+        "b": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 1,
+          "N": 1,
+          "B": 0,
+          "R": 0,
+          "Q": 0,
+          "K": 0,
+          "p": 4,
+          "n": 0,
+          "b": 0,
+          "r": 0,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "107",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 1,
+        "P": 10,
+        "Q": 1,
+        "q": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 9,
+          "N": 0,
+          "B": 0,
+          "R": 0,
+          "Q": 0,
+          "K": 1,
+          "p": 1,
+          "n": 0,
+          "b": 0,
+          "r": 1,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "108",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "p": 5,
+        "P": 7,
+        "N": 2,
+        "R": 1,
+        "b": 2,
+        "r": 2,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 2,
+          "B": 0,
+          "R": 1,
+          "Q": 1,
+          "K": 1,
+          "p": 4,
+          "n": 0,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "109",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 4,
+        "B": 1,
+        "b": 2,
+        "N": 2,
+        "n": 2,
+        "R": 2,
+        "r": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 2,
+          "b": 2,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "110",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 6,
+        "n": 1,
+        "b": 1,
+        "R": 2,
+        "r": 2,
+        "k": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 0,
+          "B": 0,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 1,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "111",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "N": 1,
+        "n": 1,
+        "B": 1,
+        "b": 1,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 1,
+          "B": 2,
+          "R": 3,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 1,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "112",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 5,
+        "N": 1,
+        "q": 1,
+        "R": 1,
+        "r": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 4,
+          "N": 1,
+          "B": 0,
+          "R": 1,
+          "Q": 0,
+          "K": 1,
+          "p": 4,
+          "n": 1,
+          "b": 1,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "113",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 11,
+        "p": 8,
+        "N": 1,
+        "n": 1,
+        "B": 1,
+        "b": 1,
+        "R": 1,
+        "r": 3,
+        "Q": 1,
+        "q": 2,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 8,
+          "N": 2,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 8,
+          "n": 2,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "114",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 8,
+        "p": 8,
+        "N": 2,
+        "n": 2,
+        "B": 2,
+        "b": 2,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 8,
+          "N": 2,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 8,
+          "n": 2,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "115",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "N": 1,
+        "n": 1,
+        "B": 3,
+        "b": 3,
+        "R": 1,
+        "r": 1,
+        "Q": 2,
+        "q": 2,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 1,
+          "B": 1,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 5,
+          "n": 1,
+          "b": 2,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "116",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 3,
+        "B": 1,
+        "b": 1,
+        "R": 1,
+        "r": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 4,
+          "N": 0,
+          "B": 0,
+          "R": 1,
+          "Q": 1,
+          "K": 1,
+          "p": 4,
+          "n": 0,
+          "b": 2,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "117",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 6,
+        "N": 2,
+        "b": 3,
+        "R": 2,
+        "r": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 0,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "118",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "R": 1,
+        "r": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 0,
+          "B": 1,
+          "R": 1,
+          "Q": 1,
+          "K": 2,
+          "p": 6,
+          "n": 0,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "119",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "N": 1,
+        "n": 1,
+        "R": 1,
+        "r": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 1,
+          "B": 0,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 8,
+          "n": 1,
+          "b": 2,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "120",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 1,
+        "p": 3,
+        "R": 1,
+        "r": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 1,
+          "N": 0,
+          "B": 0,
+          "R": 2,
+          "Q": 0,
+          "K": 1,
+          "p": 4,
+          "n": 0,
+          "b": 0,
+          "r": 1,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "121",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "R": 1,
+        "r": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 1,
+          "B": 0,
+          "R": 1,
+          "Q": 0,
+          "K": 1,
+          "p": 8,
+          "n": 0,
+          "b": 0,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "122",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 5,
+        "b": 1,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 0,
+          "B": 2,
+          "R": 3,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 0,
+          "b": 2,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "123",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 3,
+        "p": 5,
+        "n": 1,
+        "B": 2,
+        "b": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 3,
+          "N": 0,
+          "B": 1,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 1,
+          "b": 1,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "124",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 16,
+        "p": 1,
+        "b": 1,
+        "r": 1,
+        "q": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 14,
+          "N": 0,
+          "B": 0,
+          "R": 0,
+          "Q": 0,
+          "K": 0,
+          "p": 1,
+          "n": 0,
+          "b": 1,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "125",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 5,
+        "n": 1,
+        "b": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 4,
+          "N": 0,
+          "B": 0,
+          "R": 0,
+          "Q": 0,
+          "K": 1,
+          "p": 6,
+          "n": 1,
+          "b": 1,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "126",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 6,
+        "N": 2,
+        "n": 1,
+        "B": 1,
+        "b": 2,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 2,
+          "B": 2,
+          "R": 3,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 2,
+          "b": 2,
+          "r": 3,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "127",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "n": 1,
+        "R": 2,
+        "r": 2,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 8,
+          "N": 0,
+          "B": 2,
+          "R": 2,
+          "Q": 0,
+          "K": 1,
+          "p": 8,
+          "n": 1,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "128",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 5,
+        "N": 1,
+        "R": 1,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 0,
+          "B": 0,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 5,
+          "n": 0,
+          "b": 1,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "129",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 6,
+        "N": 1,
+        "n": 1,
+        "B": 1,
+        "r": 1,
+        "R": 2,
+        "Q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 1,
+          "b": 0,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "130",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 2,
+        "b": 1,
+        "R": 2,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 4,
+          "N": 0,
+          "B": 0,
+          "R": 2,
+          "Q": 0,
+          "K": 1,
+          "p": 2,
+          "n": 0,
+          "b": 2,
+          "r": 0,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "131",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 7,
+        "N": 1,
+        "n": 2,
+        "B": 2,
+        "b": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 2,
+          "B": 2,
+          "R": 1,
+          "Q": 1,
+          "K": 1,
+          "p": 9,
+          "n": 3,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "132",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 3,
+        "B": 1,
+        "b": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 0,
+          "B": 1,
+          "R": 0,
+          "Q": 1,
+          "K": 1,
+          "p": 3,
+          "n": 0,
+          "b": 1,
+          "r": 0,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "133",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 7,
+        "N": 2,
+        "B": 1,
+        "b": 2,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 2,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 0,
+          "b": 0,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "134",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 6,
+        "n": 2,
+        "B": 2,
+        "R": 2,
+        "r": 2,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 0,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 2,
+          "b": 1,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "135",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 4,
+        "p": 5,
+        "n": 1,
+        "B": 1,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 0,
+          "B": 1,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 1,
+          "b": 1,
+          "r": 3,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "136",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 6,
+        "N": 1,
+        "n": 1,
+        "B": 1,
+        "R": 2,
+        "r": 2,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 8,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 2,
+          "b": 1,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "137",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "B": 1,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 0,
+          "B": 0,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 8,
+          "n": 0,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "138",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 5,
+        "B": 1,
+        "b": 1,
+        "R": 1,
+        "K": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 0,
+          "B": 1,
+          "R": 1,
+          "Q": 1,
+          "K": 1,
+          "p": 4,
+          "n": 0,
+          "b": 2,
+          "r": 0,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "139",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 4,
+        "n": 1,
+        "B": 1,
+        "b": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 0,
+          "B": 2,
+          "R": 0,
+          "Q": 1,
+          "K": 1,
+          "p": 5,
+          "n": 1,
+          "b": 1,
+          "r": 1,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "140",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 8,
+        "N": 1,
+        "B": 1,
+        "b": 2,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 8,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 9,
+          "n": 3,
+          "b": 1,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "141",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 4,
+        "N": 1,
+        "n": 1,
+        "b": 1,
+        "R": 2,
+        "r": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 4,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 1,
+          "b": 1,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "142",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "N": 1,
+        "n": 2,
+        "b": 1,
+        "R": 2,
+        "r": 2,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 0,
+          "N": 1,
+          "B": 0,
+          "R": 2,
+          "Q": 0,
+          "K": 1,
+          "p": 2,
+          "n": 2,
+          "b": 2,
+          "r": 2,
+          "q": 0,
+          "k": 0
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "143",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 2,
+        "p": 4,
+        "b": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 2,
+          "N": 0,
+          "B": 0,
+          "R": 0,
+          "Q": 0,
+          "K": 1,
+          "p": 4,
+          "n": 0,
+          "b": 1,
+          "r": 1,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "144",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "N": 2,
+        "n": 1,
+        "B": 1,
+        "b": 2,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 2,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 2,
+          "b": 2,
+          "r": 3,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "145",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 5,
+        "p": 1,
+        "B": 1,
+        "R": 1,
+        "Q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 1,
+          "B": 2,
+          "R": 1,
+          "Q": 2,
+          "K": 1,
+          "p": 2,
+          "n": 0,
+          "b": 0,
+          "r": 0,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "146",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 6,
+        "B": 1,
+        "R": 1,
+        "r": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 5,
+          "N": 0,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 5,
+          "n": 1,
+          "b": 0,
+          "r": 2,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "147",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "n": 1,
+        "B": 1,
+        "b": 1,
+        "R": 2,
+        "r": 1,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 7,
+          "N": 0,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 6,
+          "n": 1,
+          "b": 2,
+          "r": 2,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "148",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 8,
+        "p": 7,
+        "N": 3,
+        "B": 1,
+        "b": 1,
+        "R": 1,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 8,
+          "N": 3,
+          "B": 1,
+          "R": 1,
+          "Q": 2,
+          "K": 1,
+          "p": 8,
+          "n": 0,
+          "b": 2,
+          "r": 3,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "149",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 7,
+        "p": 7,
+        "N": 1,
+        "n": 1,
+        "B": 1,
+        "b": 1,
+        "R": 2,
+        "r": 2,
+        "Q": 1,
+        "q": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 6,
+          "N": 1,
+          "B": 2,
+          "R": 2,
+          "Q": 1,
+          "K": 1,
+          "p": 7,
+          "n": 1,
+          "b": 1,
+          "r": 3,
+          "q": 1,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "150",
+      "category": "3",
+      "question": "Return types of pieces along with their quantities on the board",
+      "expected_answer": {
+        "P": 2,
+        "p": 3,
+        "N": 1,
+        "K": 1,
+        "k": 1
+      },
+      "llm_response": {
+        "piece_counts": {
+          "P": 2,
+          "N": 1,
+          "B": 0,
+          "R": 1,
+          "Q": 1,
+          "K": 1,
+          "p": 3,
+          "n": 0,
+          "b": 0,
+          "r": 0,
+          "q": 0,
+          "k": 1
+        }
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "151",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2rr4/p3k1pp/5p2/4n3/5P2/3B4/P1PK1P1P/3RR3",
+      "llm_response": {
+        "fen": "8/8/8/8/8/8/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "152",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/3k1p2/R2b2p1/2pB3p/2Pp1P1P/3Pr3/4PK2/8",
+      "llm_response": {
+        "fen": "4p1p1/R1kB2pP/2bR1QBp/2Ppr1P1/3Pp1B1/4PPK1/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "153",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/4rpk1/3R1bp1/2pB3p/2Pp1P1P/3P2P1/4P3/5K2",
+      "llm_response": {
+        "fen": "1k5/ppr5/1rPP4/4P1B1/3R1PP1/4p1BP/4BQ2/6K1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "154",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "4r3/1p5R/2p1P3/1p1pR2n/7k/P1P3pP/1P4P1/6K1",
+      "llm_response": {
+        "fen": "2r3R1/1p4nk/2ppB2q/3pR3/2pP2p1/2P1P2P/1P4PQ/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "155",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "qnrbnkbr/pppppppp/8/8/8/8/PPPPPPPP/QNRBNKBR",
+      "llm_response": {
+        "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "156",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "7b/ppp1p2k/3pb1rp/5p1Q/3P1P2/P3P3/qPPB4/K6R",
+      "llm_response": {
+        "fen": "4k2r/7p/3ppp2/5b1p/3P1P2/2P1K3/1P4P1/R6R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "157",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "4r1r1/1p2nRp1/2p1P3/1p1p2pk/6N1/P1P4P/1P2R1P1/6K1",
+      "llm_response": {
+        "fen": "r4p1p/1p4p1/p2n4/3KRP2/1N6/4R3/6P1/1K5R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "158",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/p2rkp2/4p2p/PP1r2P1/1R1P4/3K1PP1/8/2R5",
+      "llm_response": {
+        "fen": "6p1/p7/2k1p3/3r2P1/1PrPR2P/1PR1K1P1/5R2/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "159",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2r1k1r1/p2n1b2/1pp4p/3p1p2/3PpB1q/1BQ1P1P1/PPP2P2/R4RK1",
+      "llm_response": {
+        "fen": "2r1r3/1pp3pk/2np1pB1/p3B3/3Q4/2BKP3/1P1P1PPP/R5R1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "160",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1bq4/p1pk2pp/8/3p4/8/B6P/P1PK1r2/4R2R",
+      "llm_response": {
+        "fen": "r5p1/pbqb4/4p1P1/3p4/4Qr1/1B2K2R/1BP1P3/7R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "161",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/5p1p/4pKp1/3p2P1/pk1P4/1b2P3/1P3P1P/1B6",
+      "llm_response": {
+        "fen": "8/2P2pkp/4P1p1/3B1P2/2K1p1p1/2p1p3/7P/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "162",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "4r1q1/1BK3Bk/4NNp1/6Pp/7P/8/8/8",
+      "llm_response": {
+        "fen": "1qk5/b1p5/1rB5/4P3/2BB4/2KB4/1P6/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "163",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr",
+      "llm_response": {
+        "fen": "RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr"
+      },
+      "correct": true,
+      "error": null
+    },
+    {
+      "task_id": "164",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1b1R3/p1ppk2r/1p2pb2/7B/2P2p2/8/PP1Q1P2/2K3R1",
+      "llm_response": {
+        "fen": "r5r1/8/8/8/8/8/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "165",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/6k1/K6p/3B2pP/5bP1/8/8/8",
+      "llm_response": {
+        "fen": "8/3b4/8/2PkB3/2pP2K1/1p1p4/1p2r3/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "166",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2kr1Q2/1q2P1P1/3P3P/3PPPPP/4PPP1/P1P5/1PP3P1/1P6",
+      "llm_response": {
+        "fen": "qk1rK1P1/6P1/2P2P2/2P2P2/2P2P2/1P3P2/2P5/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "167",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "1q2r2k/n1pr2pp/pn3P2/1p2b1NN/4P2B/1P6/P5QP/3R1RK1",
+      "llm_response": {
+        "fen": "r3k2r/2r3p1/3bp3/1p1Bp1n1/2P1PNN1/4QBP1/PRPPK2P/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "168",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "k2r4/p4p1p/Q1p2p2/8/P3Pq2/2P5/5KPb/1R3B2",
+      "llm_response": {
+        "fen": "k5r1/2K5/8/8/4r3/8/8/R6R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "169",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "1Q2kb1r/p2n1ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4",
+      "llm_response": {
+        "fen": "p5r1/1Q2kr2/2npprp1/2r3B1/3PP3/2P3PP/1P2KR2/5R2"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "170",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1b2r1k/6p1/p3p2p/2B1PpPP/2N2P2/3p2b1/1P4Kn/7R",
+      "llm_response": {
+        "fen": "r5r1/P2B2pr/2QP3r/5ppp/4kpP1/2KbppP1/2n2PRq/1Rn3P1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "171",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "1k1r4/2qn4/1p5Q/p7/4B1P1/P4P2/1P5p/1K1R4",
+      "llm_response": {
+        "fen": "7p/8/2P1P3/8/2p3p1/3kqrb1/5P1P/4RKRp"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "172",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "rn2k2r/ppp4p/3bp3/8/5pN1/2N3P1/PPP1Q3/2KR1B1q",
+      "llm_response": {
+        "fen": "rn1qk2r/ppp1p1p1/3p2N1/3Np1P1/4Qp2/1PPPRRKr/3P1QPP/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "173",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1q2rk1/p4ppp/3p1nn1/3p4/3PP3/2P1P3/PP4PP/RN1Q1RK1",
+      "llm_response": {
+        "fen": "4r2r/pb1b1p2/2nn1k2/3p2pp/6p1/1K3PP1/7P/R5NR"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "174",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2kr3r/p1pq1p2/3p1n1p/3p1np1/2BNp3/P1P4P/1P3PP1/R1BQR1K1",
+      "llm_response": {
+        "fen": "2r3r1/pkqrb1p1/p3nn1p/3pNbp1/3PP3/2BP1BNP/1PP1KQPR/1R6"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "175",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2k5/ppp4p/4p1p1/5rP1/7P/2P3K1/PP6/4R3",
+      "llm_response": {
+        "fen": "6p1/1pp5/1kQrK3/2p5/2p2P2/2p2PR1/2p1P1PP/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "176",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/3K4/8/3Q4/8/2k5/4q3/8",
+      "llm_response": {
+        "fen": "8/2k2Q2/4K3/4q3/8/8/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "177",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "1r4k1/2p3p1/3pB1np/3Pb3/4N2q/P1P5/1PQ5/1K3R2",
+      "llm_response": {
+        "fen": "8/8/8/8/8/8/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "178",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/p7/8/8/K2Q4/1PP2k1P/P7/8",
+      "llm_response": {
+        "fen": "2p5/8/2P5/8/8/8/P3KQkP/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "179",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2N2RR1/1rn1Nb1k/N3n1b1/1nB2N1b/3B1n2/1R2B1N1/1KR1n1r1/5N2",
+      "llm_response": {
+        "fen": "1r1n2nr/3p1p2/2Np1Nk1/pP1N1P2/1n1B1n2/2P2P2/PR2R1PR/1k6"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "180",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r3r2k/pp2b1p1/2n1qn1p/4B3/8/2N2Q2/PPP4P/4RR1K",
+      "llm_response": {
+        "fen": "7r/6p1/5n2/3kqp2/2Q1P3/2B2P2/4N3/R3K2R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "181",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2r1r3/p2k1b2/P1P3p1/3PBp2/4p3/8/5PP1/2RR2K1",
+      "llm_response": {
+        "fen": "8/r6r/8/r2k1b2/2p1Q1p1/3BP3/K1P2R2/1P5p"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "182",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "5r2/6pp/5p2/1qbk1PPQ/2Rpp2P/1P4B1/2P4K/8",
+      "llm_response": {
+        "fen": "5P2/5PP1/5bpr/3qk1rp/3ppQ2/2PP1P1R/1ppp2BB/1prp3K"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "183",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "1n1R1B2/1n1R1B1K/1n1R1B2/1n1R1B2/1n1R1B2/1n1R1B2/1n1R1B2/kn1R1B2",
+      "llm_response": {
+        "fen": "7B/8/8/8/8/8/8/k7"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "184",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2Q3N1/1q2P1K1/1q3P2/2qQ1B2/8/2q2Q2/2P2Q2/1k2q1Q1",
+      "llm_response": {
+        "fen": "8/8/2B1P3/RB6/3Pp3/2P2p2/4K1P1/6k1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "185",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r3k2r/p4ppp/1p1b1n2/qP1p1P2/P7/2PpPn1N/1B1Q1P1P/RN2K2R",
+      "llm_response": {
+        "fen": "r6r/1pp1pk2/3n1b2/2P1P3/3B1p2/2P2Q2/PP3P1R/5K1R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "186",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "5rq1/1k2R2p/1pp5/pn1p4/3b2p1/3N2PB/PPP3QP/2K5",
+      "llm_response": {
+        "fen": "8/2p5/1p1r1p2/4R3/2NKB3/P5P1/1RP5/7k"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "187",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "7r/kp3p1p/p5pQ/q3p1Pn/2P4P/2NP1P2/2K5/1R6",
+      "llm_response": {
+        "fen": "7r/8/RK1P4/4QB2/4P3/5qk1/2pp1pp1/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "188",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "4k3/4n1pp/p1r1p3/3r4/PBN5/1PP3P1/4R1KP/8",
+      "llm_response": {
+        "fen": "8/pp3RK1/1pb3R1/2rrNP2/2n1B1P1/4R2P/4p1pP/6P1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "189",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R",
+      "llm_response": {
+        "fen": "r2r2k1/ppp3pp/3p1p2/3Pp3/2Q1N3/5P2/6P1/r6R"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "190",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "4k1r1/2p5/8/1P2PPP1/1PqP4/2P1rP1p/8/8",
+      "llm_response": {
+        "fen": "r7/n7/b2P1P1p/2P1PrPP/2p2kP1/7P/5PP1/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "191",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "rn3rk1/1pp2ppp/p4nb1/3q4/1P1NpPP1/P1P4P/3PQ3/R1B1KB1R",
+      "llm_response": {
+        "fen": "8/3p1r1k/6p1/3Q2bn/2PpP1p1/1P1BKPP1/P2P3P/R5R1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "192",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R1K1R",
+      "llm_response": {
+        "fen": "r7/1rpp4/k4p2/3p3R/4pn2/4B1PP/4BQPK/6RR"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "193",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1b1k2r/p2p3p/5Q2/2p5/2q5/2P5/P1P2PPP/R5KR",
+      "llm_response": {
+        "fen": "r4r1r/7p/2qbk3/3p1KB1/8/1B2P3/1PPPP2P/RR6"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "194",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r1bq1bk1/1pp2r2/1p1P1nn1/P3p2p/2N1Pp2/2N2Pp1/4B1PP/R2Q1RBK",
+      "llm_response": {
+        "fen": "8/8/8/8/8/8/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "195",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "8/5pkp/p4n2/8/7P/3Q4/5PK1/8",
+      "llm_response": {
+        "fen": "8/5PK1/4Q3/p7/4n3/3k1p1P/1pr5/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "196",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2r2rk1/pp3pp1/1q5p/4Pb2/4pB2/1PN1Q1P1/4PP1P/2R3K1",
+      "llm_response": {
+        "fen": "2r4k/1p1p4/pr3p2/2bP4/3Q1n2/5B2/4PK1P/6R1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "197",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "r4bk1/2pR1p1p/1pp1n1p1/p7/1P6/P3B1P1/5P1P/2R3K1",
+      "llm_response": {
+        "fen": "1r5/3pn1p1/4R1P1/7p/5R2/8/P1P2PPP/7K"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "198",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "k7/3PpP2/2Pp1pP1/2pP2pP/1pP1K1Pp/2pP1Pp1/3pPp2/8",
+      "llm_response": {
+        "fen": "r7/8/3p4/3K4/2PPP3/2ppp3/8/8"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "199",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "2r2bk1/p1r2p2/2p1p1p1/R2pP2p/3P1QP1/1P2N2P/P3qP2/3R2K1",
+      "llm_response": {
+        "fen": "p1q1k2p/rr3p1p/2p1p1b1/3p1N2/4P1r1/1R2P3/2P2P1P/5RK1"
+      },
+      "correct": false,
+      "error": null
+    },
+    {
+      "task_id": "200",
+      "category": "4",
+      "question": "Return the FEN string of the position",
+      "expected_answer": "1n1k3q/n4pp1/2P3p1/2P3pp/1PP5/3PP2K/Q3PPN1/1Q5N",
+      "llm_response": {
+        "fen": "1n4k1/n4pp1/r5p1/4P2p/1P2P1P1/2PP1PP1/1R1P1PBR/2R1R1KN"
+      },
+      "correct": false,
+      "error": null
+    }
+  ]
+}

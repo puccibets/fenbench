@@ -1,0 +1,8 @@
+{
+    "test_id": "174",
+    "category": "4",
+    "image_path": "images/task174",
+    "orientation": {"red_corner": "a8", "blue_corner": "h1"},
+    "question": "Return the FEN string of the position",
+    "expected_answer": "2kr3r/p1pq1p2/3p1n1p/3p1np1/2BNp3/P1P4P/1P3PP1/R1BQR1K1"
+}

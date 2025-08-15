@@ -1,0 +1,16 @@
+{
+    "test_id": "127",
+    "category": "3",
+    "image_path": "images/task127",
+    "orientation": {"red_corner": "h8", "blue_corner": "a8"},
+    "question": "Return types of pieces along with their quantities on the board",
+    "expected_answer": {
+        "P": 6,
+        "p": 6,
+        "n": 1,
+        "R": 2,
+        "r": 2,
+        "K": 1,
+        "k": 1
+      }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "FEN String Generation",
+  "description": "Generate the FEN string representation of the board position",
+  "type": "object",
+  "properties": {
+    "fen": {
+      "type": "string",
+      "pattern": "^[pnbrqkPNBRQK1-8/]+$",
+      "description": "FEN string representing the board position (board part only, without castling/en passant/move counters)"
+    }
+  },
+  "required": ["fen"],
+  "additionalProperties": false
+}
