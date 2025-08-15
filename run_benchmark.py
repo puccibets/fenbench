@@ -34,19 +34,20 @@ START_TASK = 1  # Set to a number like 50 to start from task 50
 #Example Setup using OpenAI API
 def setup_llm_client():
     """
-    Setup your LLM client here
+    Initialize and return an OpenAI client using the OPENAI_API_KEY env var.
     """
     try:
         from openai import OpenAI
         import os
-        
+
         # Initialize OpenAI client
         api_key = os.getenv("OPENAI_API_KEY")
-	if not api_key:
-    		raise RuntimeError("OPENAI_API_KEY is not set")
-		
-	client = OpenAI(api_key=api_key)
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY is not set")
+
+        client = OpenAI(api_key=api_key)
         return client
+
     except ImportError:
         print("ERROR: OpenAI library not installed. Run: pip install openai")
         print("Or modify the setup_llm_client() function to use your preferred LLM provider.")
