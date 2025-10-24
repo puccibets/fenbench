@@ -8,10 +8,10 @@ FenBench tests computer vision models on chess-related spatial reasoning using 3
 
 ## Evaluation Categories
 
-- **Category 1: Piece Identification** - Identify which piece is on a given square
-- **Category 2: Square Location** - Find all squares containing a specific piece type  
-- **Category 3: Piece Counting** - Count and categorize all pieces on the board
-- **Category 4: FEN Generation** - Generate complete board position in FEN notation
+- **Category 1: Piece Identification** - Identify which piece is on a given square (tasks 1–50)
+- **Category 2: Square Location** - Find all squares containing a specific piece type (tasks 51–100)
+- **Category 3: Piece Counting** - Count and categorize all pieces on the board (tasks 101–150)
+- **Category 4: FEN Generation** - Generate complete board position in FEN notation (tasks 151–200)
 
 ## Blender Files
 The repository also includes Blender source files for generating additional 3D chessboard renders directly from FEN strings. This allows researchers and developers to easily extend the benchmark with custom positions, test cases, or augmentations tailored to their model’s needs.
