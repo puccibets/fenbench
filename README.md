@@ -4,7 +4,7 @@ A comprehensive benchmark for evaluating AI models' ability to understand 3D-ren
 
 ## Overview
 
-FenBench tests computer vision models on chess-related spatial reasoning using photorealistic 3D chessboards. The benchmark consists of 200 tasks across four categories, each designed to evaluate different aspects of chess visual understanding.
+FenBench tests computer vision models on chess-related spatial reasoning using 3D chessboards. The benchmark consists of 200 tasks across four categories, each designed to evaluate different aspects of chess visual understanding.
 
 ## Evaluation Categories
 
